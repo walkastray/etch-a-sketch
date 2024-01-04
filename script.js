@@ -13,10 +13,19 @@ for(let curRow = 0; curRow < 16 ; curRow++){
 
         tile.className = 'tile';
 
+        tile.addEventListener("mouseenter", changeColor);
+
         row.appendChild(tile);
 
     }
 
     board.appendChild(row);
+
+}
+
+
+function changeColor(e){
+
+    e.target.style.background = 'lightpink';
 
 }
