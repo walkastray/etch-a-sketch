@@ -1,9 +1,10 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 64px;
     background: #EEEEEE;
 }
 
@@ -17,17 +18,8 @@ body{
 }
 
 .tile{
-
-    width: 50px;
-    height: 50px;
     padding: 0;
-    border: 1px solid black;
     margin: 0;
+    box-sizing: border-box;
     background: lightblue;
-}
-
-.tile:hover{
-
-    background: lightpink;
-
 }
